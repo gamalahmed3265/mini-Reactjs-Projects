@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Almarai", serif;
+}
+.dates{
+    box-shadow: 1px 4px 4px 1px rgba(85, 85, 85, 0.25);
+    height: 80vh;
+    background-color: #fff;
+    overflow-y: scroll;
+    border-radius: 5px;
+    min-width: 1000px;
+}
+.img-avater{
+    height: 60px;
+    width: 60px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+.title-notfound{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    line-height: 20;
+}
